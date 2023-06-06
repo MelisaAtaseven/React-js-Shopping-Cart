@@ -1,0 +1,28 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+  *{
+    
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+
+
+  .navbar{
+    background-color: rgb(238, 238, 238);
+  }
+.brand:hover {
+    color: rgba(202, 81, 34, 0.767);
+    transition: 0.3s;
+  }
+
+  .link{
+    color:rgb(0, 0, 0);
+  }
+  .link:hover{
+    color: rgba(202, 81, 34, 0.767);
+    transition: 0.3s;
+  }
+
+ 
