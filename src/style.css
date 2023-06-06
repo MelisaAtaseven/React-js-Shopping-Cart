@@ -13,16 +13,35 @@
     background-color: rgb(238, 238, 238);
   }
 .brand:hover {
-    color: rgba(202, 81, 34, 0.767);
+    color: #360f00c4;
     transition: 0.3s;
+  }
+  .mycart{
+    border:none;
+    font-weight: 800;
+  }
+  .mycart:hover{
+background-color: #360f00c4;
+border:none;
   }
 
   .link{
     color:rgb(0, 0, 0);
   }
   .link:hover{
-    color: rgba(202, 81, 34, 0.767);
+    color: #360f00c4;
     transition: 0.3s;
   }
+  .link1{
+    color:rgb(0, 0, 0);
+  }
+  .link1:hover{
+    color: #360f00c4;
+    transition: 0.3s;
+  
+  }
 
- 
+ .image{
+    width: 100%;
+    height: 500px;;
+ }

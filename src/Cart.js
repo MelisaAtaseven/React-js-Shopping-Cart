@@ -31,17 +31,17 @@ const Cart = () => {
                     <td>Quantity({item.quantity})</td>
                     <td>
                         <button 
-                        className="btn btn-info ms-2" 
+                        className="btn btn-dark rounded-circle ms-2" 
                         onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
                         >-</button>
                         <button 
-                        className="btn btn-info ms-2"
+                        className="btn btn-dark rounded-circle ms-2"
                         onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
                         >+</button>
                         <button 
-                        className="btn btn-danger ms-2"
+                        className="btn btn-danger rounded-pill ms-2"
                         onClick={() => removeItem(item.id)}
-                        >Remove Item</button>
+                        > &nbsp; Remove Item &nbsp;</button>
                     </td>
                     </tr>
                         )
@@ -55,10 +55,10 @@ const Cart = () => {
                 </div>
                 <div className="col-auto">
                     <button 
-                    className="btn btn-danger m-2"
+                    className="btn btn-danger rounded-pill m-2"
                     onClick={() => emptyCart()}
-                    >clear cart</button>
-                    <button  className=" btn btn-primary m-2"> buy now</button>
+                    >&nbsp;     Clear Cart &nbsp;</button>
+                    <button  className=" btn btn-success rounded-pill m-2"> &nbsp; Buy Now &nbsp;</button>
                 </div>
             </div>
         </section>
