@@ -18,7 +18,7 @@ const Cart = () => {
             <div className="row justify-content-center">
                 <div className="col-12">
                     <h5> cart({totalUniqueItems}) total Items: ({totalItems})</h5>
-                <table className="table table-light table-hover m-0">   
+                <table className="table   m-0">   
                     <tbody>
                     {items.map((item,index) => {
                         return (
@@ -31,15 +31,15 @@ const Cart = () => {
                     <td>Quantity({item.quantity})</td>
                     <td>
                         <button 
-                        className="btn btn-dark rounded-circle ms-2" 
+                        className="btn updatebtn btn-dark  ms-2"  style={{ borderRadius:'19px' , width:'40px'}} 
                         onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
                         >-</button>
                         <button 
-                        className="btn btn-dark rounded-circle ms-2"
+                        className="btn btn-dark  ms-2 "style={{ borderRadius:'19px' , width:'40px'}} 
                         onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
                         >+</button>
                         <button 
-                        className="btn btn-danger rounded-pill ms-2"
+                        className="btn removebtn btn-danger rounded-pill ms-2"
                         onClick={() => removeItem(item.id)}
                         > &nbsp; Remove Item &nbsp;</button>
                     </td>
@@ -55,10 +55,11 @@ const Cart = () => {
                 </div>
                 <div className="col-auto">
                     <button 
-                    className="btn btn-danger rounded-pill m-2"
+                    className="btn clear  rounded-pill m-2" style={{ border:'1px solid', backgroundColor: '#000000' ,color:'white' }}                 
                     onClick={() => emptyCart()}
                     >&nbsp;     Clear Cart &nbsp;</button>
-                    <button  className=" btn btn-success rounded-pill m-2"> &nbsp; Buy Now &nbsp;</button>
+                    <button  className=" btn buy-btn rounded-pill m-2"  style={{  border: '1px solid' ,color:'black' }}
+                    > &nbsp; Buy Now &nbsp;</button>
                 </div>
             </div>
         </section>

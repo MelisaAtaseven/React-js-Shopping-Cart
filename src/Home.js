@@ -6,6 +6,14 @@ const Home = () => {
 
     return(
         <>
+        <div class="p-3 mb-2 bg-dark text-white">
+            <br/>
+ <p >Coffee with one click</p>
+ <img src="img/cofffee.gif" />
+
+
+</div>
+
    <nav class="navbar navbar-expand-lg navbar-light  shadow p-3 mb-5 bg-body rounded">
   <div class="container-fluid">
     <a class=" brand navbar-brand" href="#"><i class="fa-solid fa-mug-hot fa-xl"></i></a>
@@ -34,7 +42,7 @@ const Home = () => {
   </div>
 </nav>
 
- <br/> <h1 className="text-center mt-3"> Coffee  &nbsp;
+ <br/> <h1 className="text-center mt-3 text"> Coffees  &nbsp;
            </h1>
             
             
