@@ -12,64 +12,64 @@ const data ={
         {
 id:1,
 img: img1,
-title:'Juicy Grapes',
+title:'Caffè Verona ',
 desc:'',
 price:16,
     },
     {
         id:2,
         img: img2,
-        title:'Watermelon',
+        title:'Colombia Nariño ',
         desc:'',
-        price:56,
+        price:13,
         
             },
             {
                 id:3,
                 img: img3,
-                title:'Juicy Orange',
+                title:'House Blend ',
                 desc:'',
-                price:26,
+                price:15,
                 
                     },
                     {
                         id:4,
                         img: img4,
-                        title:'Juicy Orange',
+                        title:'Ethiopia ',
                         desc:'',
-                        price:26,
+                        price:18,
                         
                             },
                             {
                                 id:5,
                                 img: img5,
-                                title:'Juicy Orange',
+                                title:'Espresso Roast ',
                                 desc:'',
-                                price:26,
+                                price:13,
                                 
                                     },
                                     {
                                         id:6,
                                         img: img6,
-                                        title:'Juicy Orange',
+                                        title:'Decaf Espresso ',
                                         desc:'',
-                                        price:26,
+                                        price:18,
                                         
                                             },
                                             {
                                                 id:7,
                                                 img: img7,
-                                                title:'Juicy Orange',
+                                                title:'Zambia Isanya ',
                                                 desc:'',
-                                                price:26,
+                                                price:19,
                                                 
                                                     },
                                                     {
                                                         id:8,
                                                         img: img8,
-                                                        title:'Juicy Orange',
+                                                        title:'Odyssey Blend ',
                                                         desc:'',
-                                                        price:26,
+                                                        price:22,
                                                         
                                                             }
 ],

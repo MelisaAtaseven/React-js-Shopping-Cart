@@ -1,11 +1,11 @@
 import React from 'react'
-import resim1 from '../img/cofffee.gif'
+
  
 function header() {
   return (
     <div>
-      <img src={resim1} />
-      <img src="img/cofffee.gif" />
+
+      <img src="img/cofffee-unscreen.gif" />
     </div>
   )
 }

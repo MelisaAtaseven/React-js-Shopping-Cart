@@ -6,10 +6,10 @@ const Home = () => {
 
     return(
         <>
-        <div class="p-3 mb-2 bg-dark text-white">
+        <div class="p-0 mb-0 bg-dark banner ">
             <br/>
  <p >Coffee with one click</p>
- <img src="img/cofffee.gif" />
+ <img  src="img/cofffee-unscreen.gif" className="coffe-gif"/>
 
 
 </div>

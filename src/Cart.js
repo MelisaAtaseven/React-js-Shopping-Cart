@@ -17,7 +17,7 @@ const Cart = () => {
         <section className="py-4 container">
             <div className="row justify-content-center">
                 <div className="col-12">
-                    <h5> cart({totalUniqueItems}) total Items: ({totalItems})</h5>
+                  
                 <table className="table   m-0">   
                     <tbody>
                     {items.map((item,index) => {
@@ -35,7 +35,7 @@ const Cart = () => {
                         onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
                         >-</button>
                         <button 
-                        className="btn btn-dark  ms-2 "style={{ borderRadius:'19px' , width:'40px'}} 
+                        className="btn  updatebtn-add btn-dark  ms-2 "style={{ borderRadius:'19px' , width:'40px'}} 
                         onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
                         >+</button>
                         <button 
@@ -49,11 +49,16 @@ const Cart = () => {
                 </tbody>
                 </table>
                 </div>
-                <div className="col-auto ms-auto">
-<h2> total price ${cartTotal}</h2>
+                <div className="col-auto me-auto" ><br></br>
+                <h5> You have a total of ({totalUniqueItems}) items in your cart </h5>
+                    <h5>  Pcs({totalItems})</h5>
+                </div>
+                <div className="col-auto ms-auto"><br/>
+<h5 style={{ fontWeight:'600' }} > Subtotal ${cartTotal}</h5>
 
                 </div>
                 <div className="col-auto">
+                    <div> </div>
                     <button 
                     className="btn clear  rounded-pill m-2" style={{ border:'1px solid', backgroundColor: '#000000' ,color:'white' }}                 
                     onClick={() => emptyCart()}

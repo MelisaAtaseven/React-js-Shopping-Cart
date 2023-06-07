@@ -7,19 +7,25 @@
     font-family: 'Nunito Sans', sans-serif;
   
   }
-
+  .banner{
+    height: 105px;
+  }
+.coffe-gif{
+ margin-left:91%;
+  margin-top: -5.8%;
+}
   p {
     position: relative;
     margin-left:15px;
-    font-family: sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #00643c, #fff, #073a25);
+    background: linear-gradient(90deg, #582e12, #fff, #491f03);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 4s linear infinite;
+    animation: animate 5s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
@@ -55,8 +61,9 @@ border:none;
    
   }
   .updatebtn{
-    margin-left:50.5% !important;
+    margin-left:44.5% !important;
 }
+
 
 .clear:hover{
     background-color: #fff !important;
