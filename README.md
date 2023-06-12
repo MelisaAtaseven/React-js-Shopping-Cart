@@ -1,3 +1,10 @@
+## React-js-Shopping-Cart
+Bu proje, React ve react-use-cart kütüphanelerini kullanarak oluşturulmuş özelleştirilebilir bir alışveriş sepeti uygulamasıdır. Kullanıcılar, istedikleri ürünleri sepete ekleyebilir, miktarlarını kolaylıkla güncelleyebilir ve istemedikleri ürünleri sepetten kaldırabilir. Sepet içeriği, kullanıcı dostu bir tablo formatında görsel olarak sunulur. Ayrıca, toplam ürün sayısı ve sepetin toplam tutarı da anlık olarak görüntülenir. 
+ react-use-cart kütüphanesinin sunduğu kolay entegrasyon sayesinde, alışveriş sepeti işlevselliğini kendi ihtiyaçlarınıza göre uyarlayabilirsiniz.
+
+Projeye canlı olarak erişmek için [React-js-Shopping-Cart]( https://react-js-shopping-cart-iota.vercel.app/).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
